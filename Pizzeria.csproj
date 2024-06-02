@@ -96,22 +96,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatabaseConnection.cs" />
-    <Compile Include="FormAddClient.cs">
+    <Compile Include="clients\FormAddClient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAddClient.Designer.cs">
+    <Compile Include="clients\FormAddClient.Designer.cs">
       <DependentUpon>FormAddClient.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAddEmployee.cs">
+    <Compile Include="employees\FormAddEmployee.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAddEmployee.Designer.cs">
+    <Compile Include="employees\FormAddEmployee.Designer.cs">
       <DependentUpon>FormAddEmployee.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAddProduct.cs">
+    <Compile Include="products\FormAddProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAddProduct.Designer.cs">
+    <Compile Include="products\FormAddProduct.Designer.cs">
       <DependentUpon>FormAddProduct.cs</DependentUpon>
     </Compile>
     <Compile Include="FormMainMenu.cs">
@@ -120,51 +120,51 @@
     <Compile Include="FormMainMenu.Designer.cs">
       <DependentUpon>FormMainMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormProducts.cs">
+    <Compile Include="products\FormProducts.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormProducts.Designer.cs">
+    <Compile Include="products\FormProducts.Designer.cs">
       <DependentUpon>FormProducts.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormOrders.cs">
+    <Compile Include="orders\FormOrders.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormOrders.Designer.cs">
+    <Compile Include="orders\FormOrders.Designer.cs">
       <DependentUpon>FormOrders.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormEmployees.cs">
+    <Compile Include="employees\FormEmployees.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormEmployees.Designer.cs">
+    <Compile Include="employees\FormEmployees.Designer.cs">
       <DependentUpon>FormEmployees.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormClients.cs">
+    <Compile Include="clients\FormClients.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormClients.Designer.cs">
+    <Compile Include="clients\FormClients.Designer.cs">
       <DependentUpon>FormClients.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormAddClient.resx">
+    <EmbeddedResource Include="clients\FormAddClient.resx">
       <DependentUpon>FormAddClient.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormAddEmployee.resx">
+    <EmbeddedResource Include="employees\FormAddEmployee.resx">
       <DependentUpon>FormAddEmployee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormAddProduct.resx">
+    <EmbeddedResource Include="products\FormAddProduct.resx">
       <DependentUpon>FormAddProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormClients.resx">
+    <EmbeddedResource Include="clients\FormClients.resx">
       <DependentUpon>FormClients.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormEmployees.resx">
+    <EmbeddedResource Include="employees\FormEmployees.resx">
       <DependentUpon>FormEmployees.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMainMenu.resx">
       <DependentUpon>FormMainMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormProducts.resx">
+    <EmbeddedResource Include="products\FormProducts.resx">
       <DependentUpon>FormProducts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
