@@ -40,7 +40,7 @@
             this.buttonProducts.BackColor = System.Drawing.SystemColors.Info;
             this.buttonProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonProducts.Location = new System.Drawing.Point(397, 65);
-            this.buttonProducts.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonProducts.Margin = new System.Windows.Forms.Padding(4);
             this.buttonProducts.Name = "buttonProducts";
             this.buttonProducts.Size = new System.Drawing.Size(459, 94);
             this.buttonProducts.TabIndex = 0;
@@ -53,19 +53,20 @@
             this.buttonOrders.BackColor = System.Drawing.SystemColors.Info;
             this.buttonOrders.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonOrders.Location = new System.Drawing.Point(397, 218);
-            this.buttonOrders.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonOrders.Margin = new System.Windows.Forms.Padding(4);
             this.buttonOrders.Name = "buttonOrders";
             this.buttonOrders.Size = new System.Drawing.Size(459, 94);
             this.buttonOrders.TabIndex = 1;
             this.buttonOrders.Text = "Заказ";
             this.buttonOrders.UseVisualStyleBackColor = false;
+            this.buttonOrders.Click += new System.EventHandler(this.buttonOrders_Click);
             // 
             // buttonEmployees
             // 
             this.buttonEmployees.BackColor = System.Drawing.SystemColors.Info;
             this.buttonEmployees.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonEmployees.Location = new System.Drawing.Point(397, 370);
-            this.buttonEmployees.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonEmployees.Margin = new System.Windows.Forms.Padding(4);
             this.buttonEmployees.Name = "buttonEmployees";
             this.buttonEmployees.Size = new System.Drawing.Size(459, 94);
             this.buttonEmployees.TabIndex = 2;
@@ -78,7 +79,7 @@
             this.buttonClients.BackColor = System.Drawing.SystemColors.Info;
             this.buttonClients.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonClients.Location = new System.Drawing.Point(397, 523);
-            this.buttonClients.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonClients.Margin = new System.Windows.Forms.Padding(4);
             this.buttonClients.Name = "buttonClients";
             this.buttonClients.Size = new System.Drawing.Size(459, 94);
             this.buttonClients.TabIndex = 3;

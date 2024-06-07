@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -42,6 +43,15 @@ namespace Pizzeria
             FormEmployees formEmployees = new FormEmployees();
             this.Hide();
             formEmployees.Show();
+        }
+
+        private void buttonOrders_Click(object sender, EventArgs e)
+        {
+           FormOrders formOrders = new FormOrders();
+            //FormOrder2 formOrder2 = new FormOrder2();
+            this.Hide();
+            formOrders.Show();
+           //formOrder2.Show();
         }
     }
 }

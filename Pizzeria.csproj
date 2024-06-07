@@ -108,6 +108,18 @@
     <Compile Include="employees\FormAddEmployee.Designer.cs">
       <DependentUpon>FormAddEmployee.cs</DependentUpon>
     </Compile>
+    <Compile Include="orders\FormAddOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="orders\FormAddOrder.Designer.cs">
+      <DependentUpon>FormAddOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="orders\FormAddOrder2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="orders\FormAddOrder2.Designer.cs">
+      <DependentUpon>FormAddOrder2.cs</DependentUpon>
+    </Compile>
     <Compile Include="products\FormAddProduct.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +163,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="employees\FormAddEmployee.resx">
       <DependentUpon>FormAddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orders\FormAddOrder.resx">
+      <DependentUpon>FormAddOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orders\FormAddOrder2.resx">
+      <DependentUpon>FormAddOrder2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orders\FormOrders.resx">
+      <DependentUpon>FormOrders.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="products\FormAddProduct.resx">
       <DependentUpon>FormAddProduct.cs</DependentUpon>

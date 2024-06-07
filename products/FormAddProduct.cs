@@ -86,10 +86,7 @@ namespace Pizzeria
                                 command.Parameters.AddWithValue("@price", productPrice);
                                 command.Parameters.AddWithValue("@cookingTime", cookingTime);
                                 command.Parameters.AddWithValue("@id", _productId.Value);
-
                                 command.ExecuteNonQuery();
-
-                             
                             }
                         }
                         else
@@ -103,10 +100,7 @@ namespace Pizzeria
                                 command.Parameters.AddWithValue("@description", productName);
                                 command.Parameters.AddWithValue("@price", productPrice);
                                 command.Parameters.AddWithValue("@cookingTime", cookingTime);
-
                                 command.ExecuteNonQuery();
-
-                              
                             }
                         }
 
@@ -118,10 +112,19 @@ namespace Pizzeria
             }
             catch (NpgsqlException ex)
             {
-                Console.WriteLine($"Ошибка при сохранении данных в базу данных: {ex.Message}");
-                // Обработка ошибки при сохранении данных
+                if (ex.Message.Contains("Цена не может быть отрицательной"))
+                {
+                    // Обработка ошибки, если цена отрицательная
+                    MessageBox.Show($"Ошибка базы данных: {ex.Message}\nТранзакция завершилась в триггере. Выполнение пакета было прервано.", "Ошибка");
+                }
+                else
+                {
+                    // Обработка других ошибок
+                    Console.WriteLine($"Ошибка при сохранении данных в базу данных: {ex.Message}");
+                }
             }
         }
+
 
         private void buttonCancel_Click(object sender, EventArgs e)
         {
